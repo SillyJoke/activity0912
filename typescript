@@ -1,0 +1,225 @@
+Script started on Wed 12 Sep 2018 07:54:22 PM UTC
+[vagrant@ubuntu-xenial:~/workspace/activity0912]
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+	[31m.ruby-version[m
+	[31mGemfile[m
+	[31mGemfile.lock[m
+	[31mREADME.md[m
+	[31mRakefile[m
+	[31mapp/[m
+	[31mbin/[m
+	[31mconfig.ru[m
+	[31mconfig/[m
+	[31mdb/[m
+	[31mlib/[m
+	[31mlog/[m
+	[31mpackage.json[m
+	[31mpublic/[m
+	[31mstorage/[m
+	[31mtest/[m
+	[31mtmp/[m
+	[31mtypescript[m
+	[31mvendor/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[vagrant@ubuntu-xenial:~/workspace/activity0912]
+$ git add -A
+[vagrant@ubuntu-xenial:~/workspace/activity0912]
+$ git statusadd -Astatus
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   .gitignore[m
+	[32mnew file:   .ruby-version[m
+	[32mnew file:   Gemfile[m
+	[32mnew file:   Gemfile.lock[m
+	[32mnew file:   README.md[m
+	[32mnew file:   Rakefile[m
+	[32mnew file:   app/assets/config/manifest.js[m
+	[32mnew file:   app/assets/images/.keep[m
+	[32mnew file:   app/assets/javascripts/application.js[m
+	[32mnew file:   app/assets/javascripts/cable.js[m
+	[32mnew file:   app/assets/javascripts/channels/.keep[m
+	[32mnew file:   app/assets/stylesheets/application.css[m
+	[32mnew file:   app/channels/application_cable/channel.rb[m
+	[32mnew file:   app/channels/application_cable/connection.rb[m
+	[32mnew file:   app/controllers/application_controller.rb[m
+	[32mnew file:   app/controllers/concerns/.keep[m
+	[32mnew file:   app/helpers/application_helper.rb[m
+	[32mnew file:   app/jobs/application_job.rb[m
+	[32mnew file:   app/mailers/application_mailer.rb[m
+	[32mnew file:   app/models/application_record.rb[m
+	[32mnew file:   app/models/concerns/.keep[m
+	[32mnew file:   app/views/layouts/application.html.erb[m
+	[32mnew file:   app/views/layouts/mailer.html.erb[m
+	[32mnew file:   app/views/layouts/mailer.text.erb[m
+	[32mnew file:   bin/bundle[m
+	[32mnew file:   bin/rails[m
+	[32mnew file:   bin/rake[m
+	[32mnew file:   bin/setup[m
+	[32mnew file:   bin/spring[m
+	[32mnew file:   bin/update[m
+	[32mnew file:   bin/yarn[m
+	[32mnew file:   config.ru[m
+	[32mnew file:   config/application.rb[m
+	[32mnew file:   config/boot.rb[m
+	[32mnew file:   config/cable.yml[m
+	[32mnew file:   config/credentials.yml.enc[m
+	[32mnew file:   config/database.yml[m
+	[32mnew file:   config/environment.rb[m
+	[32mnew file:   config/environments/development.rb[m
+	[32mnew file:   config/environments/production.rb[m
+	[32mnew file:   config/environments/test.rb[m
+	[32mnew file:   config/initializers/application_controller_renderer.rb[m
+	[32mnew file:   config/initializers/assets.rb[m
+	[32mnew file:   config/initializers/backtrace_silencers.rb[m
+	[32mnew file:   config/initializers/content_security_policy.rb[m
+	[32mnew file:   config/initializers/cookies_serializer.rb[m
+	[32mnew file:   config/initializers/filter_parameter_logging.rb[m
+	[32mnew file:   config/initializers/inflections.rb[m
+	[32mnew file:   config/initializers/mime_types.rb[m
+	[32mnew file:   config/initializers/wrap_parameters.rb[m
+	[32mnew file:   config/locales/en.yml[m
+	[32mnew file:   config/puma.rb[m
+	[32mnew file:   config/routes.rb[m
+	[32mnew file:   config/spring.rb[m
+	[32mnew file:   config/storage.yml[m
+	[32mnew file:   db/seeds.rb[m
+	[32mnew file:   lib/assets/.keep[m
+	[32mnew file:   lib/tasks/.keep[m
+	[32mnew file:   log/.keep[m
+	[32mnew file:   package.json[m
+	[32mnew file:   public/404.html[m
+	[32mnew file:   public/422.html[m
+	[32mnew file:   public/500.html[m
+	[32mnew file:   public/apple-touch-icon-precomposed.png[m
+	[32mnew file:   public/apple-touch-icon.png[m
+	[32mnew file:   public/favicon.ico[m
+	[32mnew file:   public/robots.txt[m
+	[32mnew file:   storage/.keep[m
+	[32mnew file:   test/application_system_test_case.rb[m
+	[32mnew file:   test/controllers/.keep[m
+	[32mnew file:   test/fixtures/.keep[m
+	[32mnew file:   test/fixtures/files/.keep[m
+	[32mnew file:   test/helpers/.keep[m
+	[32mnew file:   test/integration/.keep[m
+	[32mnew file:   test/mailers/.keep[m
+	[32mnew file:   test/models/.keep[m
+	[32mnew file:   test/system/.keep[m
+	[32mnew file:   test/test_helper.rb[m
+	[32mnew file:   tmp/.keep[m
+	[32mnew file:   typescript[m
+	[32mnew file:   vendor/.keep[m
+
+[vagrant@ubuntu-xenial:~/workspace/activity0912]
+$ git commit - [Km " Started Railse[K Project"
+[master (root-commit) 68dbac7]  Started Rails Project
+ 81 files changed, 1260 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .ruby-version
+ create mode 100644 Gemfile
+ create mode 100644 Gemfile.lock
+ create mode 100644 README.md
+ create mode 100644 Rakefile
+ create mode 100644 app/assets/config/manifest.js
+ create mode 100644 app/assets/images/.keep
+ create mode 100644 app/assets/javascripts/application.js
+ create mode 100644 app/assets/javascripts/cable.js
+ create mode 100644 app/assets/javascripts/channels/.keep
+ create mode 100644 app/assets/stylesheets/application.css
+ create mode 100644 app/channels/application_cable/channel.rb
+ create mode 100644 app/channels/application_cable/connection.rb
+ create mode 100644 app/controllers/application_controller.rb
+ create mode 100644 app/controllers/concerns/.keep
+ create mode 100644 app/helpers/application_helper.rb
+ create mode 100644 app/jobs/application_job.rb
+ create mode 100644 app/mailers/application_mailer.rb
+ create mode 100644 app/models/application_record.rb
+ create mode 100644 app/models/concerns/.keep
+ create mode 100644 app/views/layouts/application.html.erb
+ create mode 100644 app/views/layouts/mailer.html.erb
+ create mode 100644 app/views/layouts/mailer.text.erb
+ create mode 100644 bin/bundle
+ create mode 100644 bin/rails
+ create mode 100644 bin/rake
+ create mode 100644 bin/setup
+ create mode 100644 bin/spring
+ create mode 100644 bin/update
+ create mode 100644 bin/yarn
+ create mode 100644 config.ru
+ create mode 100644 config/application.rb
+ create mode 100644 config/boot.rb
+ create mode 100644 config/cable.yml
+ create mode 100644 config/credentials.yml.enc
+ create mode 100644 config/database.yml
+ create mode 100644 config/environment.rb
+ create mode 100644 config/environments/development.rb
+ create mode 100644 config/environments/production.rb
+ create mode 100644 config/environments/test.rb
+ create mode 100644 config/initializers/application_controller_renderer.rb
+ create mode 100644 config/initializers/assets.rb
+ create mode 100644 config/initializers/backtrace_silencers.rb
+ create mode 100644 config/initializers/content_security_policy.rb
+ create mode 100644 config/initializers/cookies_serializer.rb
+ create mode 100644 config/initializers/filter_parameter_logging.rb
+ create mode 100644 config/initializers/inflections.rb
+ create mode 100644 config/initializers/mime_types.rb
+ create mode 100644 config/initializers/wrap_parameters.rb
+ create mode 100644 config/locales/en.yml
+ create mode 100644 config/puma.rb
+ create mode 100644 config/routes.rb
+ create mode 100644 config/spring.rb
+ create mode 100644 config/storage.yml
+ create mode 100644 db/seeds.rb
+ create mode 100644 lib/assets/.keep
+ create mode 100644 lib/tasks/.keep
+ create mode 100644 log/.keep
+ create mode 100644 package.json
+ create mode 100644 public/404.html
+ create mode 100644 public/422.html
+ create mode 100644 public/500.html
+ create mode 100644 public/apple-touch-icon-precomposed.png
+ create mode 100644 public/apple-touch-icon.png
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/robots.txt
+ create mode 100644 storage/.keep
+ create mode 100644 test/application_system_test_case.rb
+ create mode 100644 test/controllers/.keep
+ create mode 100644 test/fixtures/.keep
+ create mode 100644 test/fixtures/files/.keep
+ create mode 100644 test/helpers/.keep
+ create mode 100644 test/integration/.keep
+ create mode 100644 test/mailers/.keep
+ create mode 100644 test/models/.keep
+ create mode 100644 test/system/.keep
+ create mode 100644 test/test_helper.rb
+ create mode 100644 tmp/.keep
+ create mode 100644 typescript
+ create mode 100644 vendor/.keep
+[vagrant@ubuntu-xenial:~/workspace/activity0912]
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[vagrant@ubuntu-xenial:~/workspace/activity0912]
+$ exit
+exit
+
+Script done on Wed 12 Sep 2018 07:59:24 PM UTC
